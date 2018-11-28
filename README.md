@@ -8,4 +8,7 @@ Virulence of the parasite Toxoplasma Gondii depends on multiple factors that are
 This pipeline performs the following tasks:
 * Performs quality control on FASTQ files using FASTQC
 * Aligns the fatsq reads of each sample to the reference genome using Tophat
+* Quantifies the expression of genes in each sample using cuffdiff from cufflinks package
+* Find differentially expressed genes between various comparisons. 
+
 
